@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 
 $client = new \GuzzleHttp\Client();
 
-Hhq\Index\index::a();
+//Hhq\Index\index::a();
 
 $csv = \League\Csv\Reader::createFromPath($argv[1], 'r');
 $csv->getRecords();
